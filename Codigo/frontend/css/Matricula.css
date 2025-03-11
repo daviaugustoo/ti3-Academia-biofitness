@@ -1,0 +1,68 @@
+main{
+    display: flex;
+    flex-flow: column ;
+    height: 100%;   
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+    width: 80%;
+    height: 75%;
+}
+
+.header h1 {
+    text-align: center;
+    color: #002b45;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    width: 70%;
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #002b45;
+    color: white;
+}
+
+.btn-desvincular {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-desvincular:hover {
+    background-color: darkred;
+}

@@ -1,0 +1,17 @@
+@import url("side-bar.css");
+
+:root {
+  --cor_fundo: #ffffff;
+  --cor_texto: #000000;
+  --cor_botao: #87beff;
+  --cor_botao_ativo: #74b3ff;
+  --cor_botao_hover: #5ca5ff;
+  --cor_caixa_conteudo: #87bdff4d;
+  --cor_barra_navegacao: #012e46;
+  --cor_botao_concentracao: #377dff;
+  --azul_petroleo: #012e46;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,139 @@
+/* Menu lateral */
+.menu {
+    background-color: var(--cor_barra_navegacao);
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    width: 20%;
+    /* Ajuste de 30% para 20% */
+    box-shadow: -10px 10px 30px 0px var(--cor_texto);
+  }
+  
+  /* Proporção do conteúdo */
+  main {
+    width: 80%;
+    /* Ajustado para 80% com base no menu lateral */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor_fundo);
+  }
+  
+  html {
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilo do conteúdo */
+  .content {
+    background-color: #e7edfb;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo do título */
+  .form-container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Estilo do formulário */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  /* Estilo dos campos de input */
+  form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Estilo dos placeholders */
+  form input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Estilo do botão de salvar */
+  .btn-save {
+    grid-column: span 2;
+    background-color: #002f45;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-save:hover {
+    background-color: #004966;
+  }
+  
+  /* Ajuste de largura dos inputs */
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="date"] {
+    width: 100%;
+  }
+  
+  /* Centralizar o formulário */
+  form {
+    width: 500px;
+  }
+  
+  /* Ajustes para telas menores */
+  @media only screen and (max-width: 1200px) {
+    .menu {
+      width: 25%;
+    }
+  
+    main {
+      width: 75%;
+    }
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .all {
+      flex-direction: column;
+    }
+  
+    .menu {
+      width: 100%;
+      height: auto;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    main {
+      width: 100%;
+    }
+  
+    .form-container {
+      max-width: 100%;
+    }
+  }
+  /* Estilo dos labels */
+form label {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #7a7a7a;
+}

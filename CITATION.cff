@@ -1,0 +1,28 @@
+cff-version: 1.0.1
+message: This software project is developed as part of the PUC Minas course and it is a collaborative effort of students and professors.
+title: Academia de ginástica BioFitness
+authors:
+  - family-names: Dias Soares
+    given-names: Davi Augusto
+  - family-names: Lucas Tornelli
+    given-names: Victor
+  - family-names: Morais Marques
+    given-names: Pedro Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alonso Veloso
+    given-names: Eveline
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Amaral Baroni de Carvalho
+    given-names: Juliana
+keywords:
+  - JavaScript
+  - Ruby
+  - CSS
+  - HTML
+  - Software Development
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-2-ti3-9545100-academia-biofitness
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-12-09

@@ -1,0 +1,178 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+.content {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 80%;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.row-start {
+    width: 20%;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+}
+
+.row-expand {
+    width: 80%;
+    text-align: left;
+    border-left: none;
+}
+
+.content th, .content td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+.content th {
+    background-color: #003366;
+    color: white;
+}
+
+.content .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.content .progress {
+    height: 100%;
+    background-color: #4caf50;
+    width: 50%;
+}
+
+.content .edit-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.content .edit-button:hover {
+    background-color: #005599;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #333;
+}
+
+.modal-content label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="number"],
+.modal-content input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.modal-content input[type="checkbox"] {
+    margin-top: 8px;
+}
+
+#save-button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#save-button:hover {
+    background-color: #005599;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .content {
+        width: 95%;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .modal-content input[type="text"],
+    .modal-content input[type="number"],
+    .modal-content input[type="time"] {
+        font-size: 14px;
+    }
+
+    #save-button, .content .edit-button {
+        width: 100%;
+        padding: 15px;
+    }
+}

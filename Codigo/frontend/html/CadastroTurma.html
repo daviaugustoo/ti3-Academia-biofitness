@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/CadastroTurma.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/logoCut.jpg"
+      type="image/x-icon"
+    />
+    <title>Academia Biofitness - Cadastro Turma</title>
+  </head>
+  <body>
+    <div class="all">
+      <nav class="menu">
+        <script src="../js/SideBar.js"></script>
+      </nav>
+      <main>
+        <div class="container">
+          <div class="header">
+            <h1>Cadastro de Turmas</h1>
+          </div>
+          <form id="classForm">
+            <div class="form-group">
+              <label for="modulo">Modulo:</label>
+              <input type="text" id="modulo" name="modulo" required />
+            </div>
+            <div class="form-group">
+              <label for="instructor">Instrutor Responsável:</label>
+              <input type="text" id="instructor" name="instructor" required />
+            </div>
+            <div class="form-group">
+              <label for="maxStudents">Quantidade max. de alunos:</label>
+              <input type="number" id="maxStudents" name="maxStudents" min="1" required />
+            </div>
+            <div class="form-group">
+              <label for="day">Dia:</label>
+              <select id="day" name="day" required>
+                <option value="">Selecione o Dia</option>
+                <option value="1">Segunda-feira</option>
+                <option value="2">Terça-feira</option>
+                <option value="3">Quarta-feira</option>
+                <option value="4">Quinta-feira</option>
+                <option value="5">Sexta-feira</option>
+                <option value="6">Sábado</option>
+                <option value="7">Domingo</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="startTime">Horário Início:</label>
+              <input type="time" id="time" name="time" required />
+            </div>
+            <button type="submit" class="btn-save">SALVAR</button>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script src="../js/CadastroTurma.js"></script>
+  </body>
+</html>

@@ -1,0 +1,284 @@
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.533367', '2024-09-30 21:53:01.533367');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.533367', '2024-09-30 21:53:01.533367')[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.4ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.645734', '2024-09-30 21:53:01.645734');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.645734', '2024-09-30 21:53:01.645734')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.6ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.650070', '2024-09-30 21:53:01.650070');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.650070', '2024-09-30 21:53:01.650070')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (1.2ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.655823', '2024-09-30 21:53:01.655823');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.655823', '2024-09-30 21:53:01.655823')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.662265', '2024-09-30 21:53:01.662265');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.662265', '2024-09-30 21:53:01.662265')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.4ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.668005', '2024-09-30 21:53:01.668005');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.668005', '2024-09-30 21:53:01.668005')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.674390', '2024-09-30 21:53:01.674390');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.674390', '2024-09-30 21:53:01.674390')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.681035', '2024-09-30 21:53:01.681035');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.681035', '2024-09-30 21:53:01.681035')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.687094', '2024-09-30 21:53:01.687094');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.687094', '2024-09-30 21:53:01.687094')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.4ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:01.692626', '2024-09-30 21:53:01.692626');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:01.692626', '2024-09-30 21:53:01.692626')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "schema_sha1"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.165318', '2024-09-30 21:53:05.165318');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.165318', '2024-09-30 21:53:05.165318')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.182670', '2024-09-30 21:53:05.182670');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.182670', '2024-09-30 21:53:05.182670')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.187170', '2024-09-30 21:53:05.187170');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.187170', '2024-09-30 21:53:05.187170')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.191264', '2024-09-30 21:53:05.191264');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.191264', '2024-09-30 21:53:05.191264')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (5.8ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.3ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.220881', '2024-09-30 21:53:05.220881');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.220881', '2024-09-30 21:53:05.220881')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.248327', '2024-09-30 21:53:05.248327');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.248327', '2024-09-30 21:53:05.248327')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.2ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.252881', '2024-09-30 21:53:05.252881');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.252881', '2024-09-30 21:53:05.252881')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.4ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.256456', '2024-09-30 21:53:05.256456');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.256456', '2024-09-30 21:53:05.256456')[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.3ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.261853', '2024-09-30 21:53:05.261853');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.261853', '2024-09-30 21:53:05.261853')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixtures Load (0.5ms)[0m  [1m[31mDELETE FROM "groups";
+DELETE FROM "user_times";
+INSERT INTO "groups" VALUES ();
+INSERT INTO "groups" VALUES ();
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (980190962, '2024-09-30 21:53:05.265377', '2024-09-30 21:53:05.265377');
+INSERT INTO "user_times" ("id", "created_at", "updated_at") VALUES (298486374, '2024-09-30 21:53:05.265377', '2024-09-30 21:53:05.265377')[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m

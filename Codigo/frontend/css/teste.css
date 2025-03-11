@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .schedule {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 colunas para 6 dias da semana */
+    grid-template-rows: repeat(10, 100px); /* Ajuste o número de linhas baseado nos horários */
+    gap: 10px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .header {
+    grid-column: span 1;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .time {
+    background-color: #ffa07a;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .time:nth-child(2) {
+    background-color: #8fbc8f;
+  }
+  
+  .time:nth-child(3) {
+    background-color: #87cefa;
+  }
+  
+  /* Mais cores para diferentes atividades */
+  

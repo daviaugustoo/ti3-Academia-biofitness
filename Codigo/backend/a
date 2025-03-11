@@ -1,0 +1,18 @@
+=> 
+[32m#<Api::User:0x0000555b42e963b0[0m
+ id: [34m[1m15[0m,
+ name: [31m[1m"[0m[31mJeogina Cris Morta[0m[31m[1m"[0m,
+ subscription_fee: [35m[1m169.99[0m,
+ cpf: [31m[1m"[0m[31m111.546.876-77[0m[31m[1m"[0m,
+ hours_left: [36m[1mnil[0m,
+ phone_number: [31m[1m"[0m[31m31-90941-4212[0m[31m[1m"[0m,
+ deleted_at: [36m[1mnil[0m,
+ access_level: [36m[1mnil[0m,
+ created_at: Mon, 30 Sep 2024 22:38:41.325325000 UTC +00:00,
+ updated_at: Mon, 30 Sep 2024 22:38:41.325325000 UTC +00:00,
+ group_id: [36m[1mnil[0m,
+ birthday: Sat, 03 Feb 2001 04:05:06.000000000 UTC +00:00,
+ gender: [31m[1m"[0m[31mHomem[0m[31m[1m"[0m,
+ job: [31m[1m"[0m[31mModeladora de rostos[0m[31m[1m"[0m,
+ health_issues: [31m[1m"[0m[31m100% obesa[0m[31m[1m"[0m,
+ gym_goal: [31m[1m"[0m[31mEmagracer[0m[31m[1m"[0m[32m>[0m

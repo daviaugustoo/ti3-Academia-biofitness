@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="shortcut icon"
+      href="../assets/logoCut.jpg"
+      type="image/x-icon"
+    />
+    <title>Login Biofitness</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="../assets/logoCut.jpg" alt="biofitness estúdio" class="logo">
+        <form class="login-form" id="loginForm">
+            <div class="role-selection">
+                <select id="cargo" required>
+                    <option value="funcionario">Funcionário</option>
+                    <option value="admin">Admin</option>
+                </select>
+            </div>
+            <input type="password" placeholder="Senha" id="senha" required>
+            <button type="submit">ENTRAR</button>
+        </form>
+    </div>
+    <img src="../assets/remove.png" alt="" style="height: 4px; width: 4px;">
+    <script>
+        document.querySelector('.login-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const cargo = document.getElementById('cargo').value;
+            const senha = document.getElementById('senha').value;
+
+            localStorage.setItem('cargo', cargo);
+
+            // Verificação de login
+            if (senha === '1234' && cargo === 'admin') {
+                alert('Login como Admin realizado com sucesso!');
+                window.location.href = "../html/GerenciaCliente.html";
+            } else if (senha === '1234' && cargo === 'funcionario') {
+                alert('Login como Funcionário realizado com sucesso!');
+                window.location.href = "../html/GerenciaCliente.html";
+            } else {
+                alert('Senha incorreta!');
+                
+            }
+        });
+    </script>
+</body>
+</html>
